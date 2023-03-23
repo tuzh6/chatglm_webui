@@ -205,4 +205,4 @@ with gr.Blocks() as demo:
 
 
 if __name__ == '__main__':
-    demo.queue(concurrency_count=5, max_size=20).launch(debug=True)
+    demo.queue(concurrency_count=5, max_size=20).launch(share=True)
